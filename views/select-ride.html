@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        .home-header{
+            display: flex;
+            justify-content: center;
+            background-color: lightblue;
+            margin: 5px;
+            margin-left: 0px;
+        }
+        .main-container{
+            display: flex;
+            flex-direction: row;
+        }
+        .side-menu{
+            display: flex;
+            flex-direction: column;
+            width:15%;
+            margin-right: 5px;
+        }
+        .options{
+            padding: 20px;
+            background-color: lightblue;
+            border: solid 0.1px;
+        }
+        a{
+            text-decoration: auto;
+        }
+    </style>
+    <script src="../app.js"></script>
+</head>
+<body>
+    <div class="home-header">
+        <h2>Welcome to Ride Services</h2>
+    </div>
+    <div class="main-container">
+        <div class="side-menu">
+            <span   class="options"><a href="./add-user.html">Add User</a></span>
+            <span   class="options"><a href="./offer-ride.html">Offer Ride</a></span>
+            <span   class="options"><a href="./select-ride.html">Select Ride</a></span>
+        </div>        
+    </div>
+</body>
+</html>
